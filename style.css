@@ -8,8 +8,9 @@
   animation: 3s infinite gradient;
   display: flex;
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 4rem;
   width: fit-content;
+  margin-left: 13rem;
 }
 .jello:hover{
   -webkit-text-fill-color: #03e6ff;
@@ -25,6 +26,9 @@ body{
 nav{
     /* background-image:url("https://images5.alphacoders.com/133/1330526.png"); */
     background-image:url("https://images3.alphacoders.com/135/1355520.png");
+}
+.navbar-nav {
+    text-align: center;
 }
 .skills {
     background: #121212; /* Dark background */
@@ -119,4 +123,24 @@ footer .social-links a i {
 
 footer .social-links a i:hover {
     transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    #name {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+    .jello {
+        animation: none; /* Disable animation */
+        font-size: 1.2rem; /* Adjust font size */
+    }
+}
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 0.9rem; /* Smaller font for cards */
+    }
+    .hero-section {
+        padding: 2rem 1rem; /* Reduce padding */
+    }
 }
