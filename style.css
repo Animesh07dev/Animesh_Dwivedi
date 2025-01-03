@@ -129,7 +129,7 @@ footer .social-links a i:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
     .jello {
         animation: none; /* Disable animation */
